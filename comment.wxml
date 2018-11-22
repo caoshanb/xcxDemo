@@ -1,0 +1,4 @@
+<view style=' display: flex;flex-direction: row;'>
+  <view data-index='{{0}}' style="background:#fff;margin-top:2rpx;padding:20rpx;display:flex;align-items:center;width:100%;{{Style}}" bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE">左滑</view>
+  <view style='color:#fff;justify-content: center; align-items: center;width:150rpx; background:red;{{txtStyle}}' bindtap="deleteProd">删除</view>
+</view>
